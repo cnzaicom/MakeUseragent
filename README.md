@@ -1,13 +1,7 @@
 # MakeUseragent
 浏览器User Agent生成器
 
-demo
-
-
 go1.8测试能过
-
-
-demo
 
 agent := MakeUseragent.New()
 
