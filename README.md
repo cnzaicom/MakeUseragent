@@ -1,9 +1,9 @@
 # MakeUseragent
 浏览器User Agent生成器
-
-go1.8测试能过
-  demo
-      agent := MakeUseragent.New()
+go1.8测试通过
+demo
+	
+	    agent := MakeUseragent.New()
   
 	    fmt.Println(agent.Android())
   
