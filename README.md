@@ -1,23 +1,23 @@
 # MakeUseragent 浏览器User Agent生成器
-##demo
-go1.8测试通过
+## demo
+go1.8测试通过,只返回单条的字符串。
 ```python
 	agent := MakeUseragent.New()
-	fmt.Println(agent.Android())
-	fmt.Println(agent.Baidu_box_app())
-	fmt.Println(agent.Chrome_pc())
-	fmt.Println(agent.Chrome_wap())
-	fmt.Println(agent.Firefox_pc())
-	fmt.Println(agent.Iphone())
-	fmt.Println(agent.Pc())
-	fmt.Println(agent.Pc_linux())
-	fmt.Println(agent.Pc_mac())
-	fmt.Println(agent.Pc_windows())
-	fmt.Println(agent.Wap())
-	fmt.Println(agent.Wechat())
-	fmt.Println(agent.Random())
+	fmt.Println(agent.Android())	//Android端
+	fmt.Println(agent.Baidu_box_app())	
+	fmt.Println(agent.Chrome_pc())		//Chrome 桌面端
+	fmt.Println(agent.Chrome_wap())		//Chrome 无线端
+	fmt.Println(agent.Firefox_pc())		//Firefox_桌面端
+	fmt.Println(agent.Iphone())	//Iphone
+	fmt.Println(agent.Pc())		//桌面端
+	fmt.Println(agent.Pc_linux())	//linux 端
+	fmt.Println(agent.Pc_mac())	//mac 桌面端
+	fmt.Println(agent.Pc_windows())	//windows桌面端
+	fmt.Println(agent.Wap())	//无线端
+	fmt.Println(agent.Wechat())	//微信
+	fmt.Println(agent.Random())	//随机
 ```
-##运行效果
+## 运行效果
 ```
 Mozilla/5.0 (Linux; Android 7.4.8; SM-E7000 Build/KTU84P) AppleWebKit/217.66 (KHTML, like Gecko) Chrome/29.5.8448.10 Mobile Safari/217.66
 Mozilla/5.0 (iPhone; CPU iPhone OS 6_5_4 like Mac OS X) AppleWebKit/865.72 (KHTML, like Gecko) Mobile/2Q2T1P baiduboxapp/0_19.0.7.7_enohpi_5087_338/2.01_4C2%258enohPi/1099a/LNK6OPDYR89T3AS6EE7OZDSGZX8702IN9DQC94Y69UH7VEDT2VI/1
