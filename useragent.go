@@ -357,7 +357,7 @@ func (s useragent) Baidu_box_app() string {
 func (s useragent) Android() string {
 	num, _ := s.getrandomNumber(4)
 	switch num {
-	case 4:
+	case 3:
 		return s.baidu_box_app_android()
 	case 2:
 		return s.chrome_wap_android()
